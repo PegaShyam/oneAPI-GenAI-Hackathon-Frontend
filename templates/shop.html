@@ -5,71 +5,48 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Optic - Home</title>
-        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+        <title>Optic - Shop</title>
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/css/style.css">
     </head>
 
     <body>
         <section id="header">
-            <a href="#"><img src="img/optic logo/op2.png" class="logo" alt="logo"></a>
+            <a href="#"><img src="/img/optic logo/op2.png" class="logo" alt="logo"></a>
 
             <div>
                 <ul id="navbar">
-                    <li><a class="active" href="index.html">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="vqa.html">VQA</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="shop.html">Shop</a></li>
+                    <li><a href="chatbot.html">Chatbot</a></li>
                     <li><a href="faq.html">FAQ</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="cart.html"><ion-icon name="cart-sharp" size="large" class="icart"></ion-icon></a></li>
+                    <a href="#" id="close"><ion-icon name="close"></ion-icon></a>
                 </ul>
             </div>
+            <div id="mobile">
+              <ion-icon name="menu" class="menulogo" id="bar"></ion-icon>
+            </div>
         </section>
 
-        <section id="hero">
-            <h4>Presenting,</h4>
-            <h2>OpTic AR Watches</h2>
-            <h1>Product Showcase</h1>
-            <p>placeholder text</p>
-            <button>Shop Now</button>
-        </section>
-
-        <section id="feature" class="section-p1">
-            <div class="fe-box">
-                <img src="img/features/f1.png" alt="">
-                <h6>Feature 1</h6>
-            </div>
-            <div class="fe-box">
-                <img src="img/features/f2.png" alt="">
-                <h6>Feature 2</h6>
-            </div>
-            <div class="fe-box">
-                <img src="img/features/f3.png" alt="">
-                <h6>Feature 3</h6>
-            </div>
-            <div class="fe-box">
-                <img src="img/features/f4.png" alt="">
-                <h6>Feature 4</h6>
-            </div>
-            <div class="fe-box">
-                <img src="img/features/f5.png" alt="">
-                <h6>Feature 5</h6>
-            </div>
-            <div class="fe-box">
-                <img src="img/features/f6.png" alt="">
-                <h6>Feature 6</h6>
-            </div>
+        <section id="page-header">
+            
+            <h2>Shopping Page</h2>
+            
+            <p>Explore Our Collection</p>
+            
         </section>
 
         <section id="product1" class="section-p1">
-          <h2>Featured Products</h2>
-          <p>Suggested for you</p>
+          <!-- <h2>Featured Products</h2>
+          <p>Suggested for you</p> -->
           <div class="pro-container">
 
             <!-- product 1 -->
-            <div class="pro">
-              <img src="img/products/f1.jpg" alt="">
+            <div class="pro" onclick="window.location.href='sproduct.html';">
+              <img src="/img/products/f1.jpg" alt="">
               <div class="des">
                 <span>Optic</span>
                 <h5>Watch // Variant 1</h5>
@@ -87,7 +64,7 @@
 
             <!-- product 2 -->
             <div class="pro">
-              <img src="img/products/f2.jpg" alt="">
+              <img src="/img/products/f2.jpg" alt="">
               <div class="des">
                 <span>Optic</span>
                 <h5>Watch // Variant 2</h5>
@@ -105,7 +82,7 @@
 
             <!-- product 3 -->
             <div class="pro">
-              <img src="img/products/f3.jpg" alt="">
+              <img src="/img/products/f3.jpg" alt="">
               <div class="des">
                 <span>Optic</span>
                 <h5>Watch // Variant 3</h5>
@@ -123,7 +100,7 @@
 
             <!-- product 4 -->
             <div class="pro">
-              <img src="img/products/f4.jpg" alt="">
+              <img src="/img/products/f4.jpg" alt="">
               <div class="des">
                 <span>Optic</span>
                 <h5>Watch // Variant 4</h5>
@@ -141,7 +118,7 @@
 
             <!-- product 5 -->
             <div class="pro">
-              <img src="img/products/f5.jpg" alt="">
+              <img src="/img/products/f5.jpg" alt="">
               <div class="des">
                 <span>Optic</span>
                 <h5>Watch // Variant 5</h5>
@@ -159,7 +136,7 @@
 
             <!-- product 6 -->
             <div class="pro">
-              <img src="img/products/f6.jpg" alt="">
+              <img src="/img/products/f6.jpg" alt="">
               <div class="des">
                 <span>Optic</span>
                 <h5>Watch // Variant 6</h5>
@@ -177,7 +154,7 @@
 
             <!-- product 7 -->
             <div class="pro">
-              <img src="img/products/f7.jpg" alt="">
+              <img src="/img/products/f7.jpg" alt="">
               <div class="des">
                 <span>Optic</span>
                 <h5>Watch // Variant 7</h5>
@@ -195,7 +172,7 @@
 
             <!-- product 8 -->
             <div class="pro">
-              <img src="img/products/f8.jpg" alt="">
+              <img src="/img/products/f8.jpg" alt="">
               <div class="des">
                 <span>Optic</span>
                 <h5>Watch // Variant 8</h5>
@@ -211,7 +188,157 @@
               <a href="#"><ion-icon name="add-outline" class="addtocart"></ion-icon></a>
             </div>
 
+            <!-- product 9 -->
+            <div class="pro">
+              <img src="/img/products/n1.jpg" alt="">
+              <div class="des">
+                <span>Optic</span>
+                <h5>Watch // Variant 9</h5>
+                <div class="star">
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star-half" class="ratingstar"></ion-icon>
+                </div>
+                <h4>$10</h4>
+              </div>
+              <a href="#"><ion-icon name="add-outline" class="addtocart"></ion-icon></a>
+            </div>
+
+            <!-- product 10 -->
+            <div class="pro">
+              <img src="/img/products/n2.jpg" alt="">
+              <div class="des">
+                <span>Optic</span>
+                <h5>Watch // Variant 10</h5>
+                <div class="star">
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star-half" class="ratingstar"></ion-icon>
+                </div>
+                <h4>$10</h4>
+              </div>
+              <a href="#"><ion-icon name="add-outline" class="addtocart"></ion-icon></a>
+            </div>
+
+            <!-- product 11 -->
+            <div class="pro">
+              <img src="/img/products/n3.jpg" alt="">
+              <div class="des">
+                <span>Optic</span>
+                <h5>Watch // Variant 11</h5>
+                <div class="star">
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star-half" class="ratingstar"></ion-icon>
+                </div>
+                <h4>$10</h4>
+              </div>
+              <a href="#"><ion-icon name="add-outline" class="addtocart"></ion-icon></a>
+            </div>
+
+            <!-- product 12 -->
+            <div class="pro">
+              <img src="/img/products/n4.jpg" alt="">
+              <div class="des">
+                <span>Optic</span>
+                <h5>Watch // Variant 12</h5>
+                <div class="star">
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star-half" class="ratingstar"></ion-icon>
+                </div>
+                <h4>$10</h4>
+              </div>
+              <a href="#"><ion-icon name="add-outline" class="addtocart"></ion-icon></a>
+            </div>
+
+            <!-- product 13 -->
+            <div class="pro">
+              <img src="/img/products/n5.jpg" alt="">
+              <div class="des">
+                <span>Optic</span>
+                <h5>Watch // Variant 13</h5>
+                <div class="star">
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star-half" class="ratingstar"></ion-icon>
+                </div>
+                <h4>$10</h4>
+              </div>
+              <a href="#"><ion-icon name="add-outline" class="addtocart"></ion-icon></a>
+            </div>
+
+            <!-- product 14 -->
+            <div class="pro">
+              <img src="/img/products/n6.jpg" alt="">
+              <div class="des">
+                <span>Optic</span>
+                <h5>Watch // Variant 14</h5>
+                <div class="star">
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star-half" class="ratingstar"></ion-icon>
+                </div>
+                <h4>$10</h4>
+              </div>
+              <a href="#"><ion-icon name="add-outline" class="addtocart"></ion-icon></a>
+            </div>
+
+            <!-- product 15 -->
+            <div class="pro">
+              <img src="/img/products/n7.jpg" alt="">
+              <div class="des">
+                <span>Optic</span>
+                <h5>Watch // Variant 15</h5>
+                <div class="star">
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star-half" class="ratingstar"></ion-icon>
+                </div>
+                <h4>$10</h4>
+              </div>
+              <a href="#"><ion-icon name="add-outline" class="addtocart"></ion-icon></a>
+            </div>
+
+            <!-- product 16 -->
+            <div class="pro">
+              <img src="/img/products/n8.jpg" alt="">
+              <div class="des">
+                <span>Optic</span>
+                <h5>Watch // Variant 16</h5>
+                <div class="star">
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star" class="ratingstar"></ion-icon>
+                  <ion-icon name="star-half" class="ratingstar"></ion-icon>
+                </div>
+                <h4>$10</h4>
+              </div>
+              <a href="#"><ion-icon name="add-outline" class="addtocart"></ion-icon></a>
+            </div>
+
           </div>
+        </section>
+
+        <section id="pagination" class="section-p1">
+          <a href="#">1</a>
+          <a href="#">2</a>
+          <a href="#"><ion-icon name="arrow-forward-outline" class="arrow"></ion-icon></a>
         </section>
         
         <footer class="footer-distributed">
@@ -250,9 +377,9 @@
                 </a>
               </div>
             </div>
-          </footer>
+        </footer>
 
-        <script src="script.js"></script>
+        <script src="/js/script.js"></script>
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
