@@ -9,6 +9,10 @@
         <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
         <link rel="stylesheet" href="/css/style.css">
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     </head>
 
     <body>
@@ -31,12 +35,33 @@
             </div>
         </section>
 
-        <section id="page-header">
+        <!-- <section id="page-header">
             
             <h2>Shopping Page</h2>
             
             <p>Explore Our Collection</p>
             
+        </section> -->
+
+        <section class="carousel">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="/img/custom/caro3.jpg" alt="caro1"><h1 class="centered-text">Shopping Page<br>Explore Our Collection.</h1></div>
+              <div class="swiper-slide"><img src="/img/custom/caro1.jpg" alt="caro1"><h1 class="centered-text">Explore products using AR.</h1></div>
+              <div class="swiper-slide"><img src="/img/custom/caro2.jpg" alt="caro2"><h1 class="centered-text">Find the product you like.</h1></div>
+              <div class="swiper-slide"><img src="/img/custom/caro4.jpg" alt="caro3"><h1 class="centered-text">Checkout from your cart.</h1></div>
+              <!-- <div class="swiper-slide">Slide 4</div> Add more slides -->
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            <div class="autoplay-progress">
+              <svg viewBox="0 0 48 48">
+                <circle cx="24" cy="24" r="20"></circle>
+              </svg>
+              <span></span>
+            </div>
+          </div>
         </section>
 
         <section id="pagination" class="section-p1">
@@ -349,7 +374,7 @@
             <div class="footer-left">
               <p class="flheader">Optic</p>
       
-              <p class="footer-links">Prototype Phase - I</p>
+              <p class="footer-links">Phase - II</p>
       
               <p class="footer-company-name">2023</p>
       
@@ -378,6 +403,9 @@
         </footer>
 
         <script src="/js/script.js"></script>
+        <script src="/js/swiper.js"></script>
+        <!-- scroll reveal -->
+        <script src="https://unpkg.com/scrollreveal"></script>
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
